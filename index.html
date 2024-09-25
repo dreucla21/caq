@@ -1,28 +1,101 @@
 <html>
-<h1> CAQ Swimming Records </h1>
-Web Versions
-<ul>
-  <li><a href="records_interactive.html"> All Records Interactive </a></li>
-  <li><a href="LCM_v1.html"> LCM v1 </a></li>
-  <li><a href="LCM_v2.html"> LCM v2 </a></li>
-  <li><a href="SCY_v1.html"> SCY v1 </a></li>
-  <li><a href="SCY_v2.html"> SCY v2 </a></li>
-</ul>
-<br>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-PDF Versions
-<ul>
-  <li><a href="LCM_v1.pdf"> LCM v1 </a></li>
-  <li><a href="LCM_v2.pdf"> LCM v2 </a></li>
-  <li><a href="SCY_v1.pdf"> SCY v1 </a></li>
-  <li><a href="SCY_v2.pdf"> SCY v2 </a></li>
-</ul>
-<br>
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
 
-Top Times Charts
-<ul>
-  <li><a href="LCM_top25.html"> LCM Top 25 </a></li>
-  <li><a href="SCY_top25.html"> SCY Top 25 </a></li>
-  <li><a href="records_interactive_top25.html"> Top 25 Interactive </a></li>
-</ul>
+.left, .right {
+  width: 150px;
+}
+
+.middle {
+  width: 150px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header img {
+  float: left;
+  width: 50
+}
+
+.header h1 {
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-size:24;
+  top: 15px;
+  left: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size:15;
+  line-height:21px;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size:18;
+  margin-top: 0;
+  line-height:21px;
+}
+
+hr {
+  height:normal;
+  border-width:0;
+  align:left;
+  margin-top: 35px;
+}
+</style>
+
+
+<html>
+
+<div class="header">
+  <img src="caq_logo.jpg" alt="logo" />
+  <h1>Charger Aquatics Team Records</h1>
+</div>
+<hr style="margin-top:60px">
+
+<h3>Team Records</h3>
+
+  <a href="records_interactive.html"> Interactive </a><br>
+  An interactive table of the team records per event, age group and gender. The table supports search, filter and sort.
+  <br><br>
+  <a href="LCM_v1.html">LCM v1</a>&nbsp&nbsp;<a href="LCM_v1.pdf">(pdf)</a><br>
+  <a href="LCM_v2.html">LCM v2</a>&nbsp;&nbsp;<a href="LCM_v2.pdf">(pdf)</a><br>
+  All Long Course Meters (LCM) team records per event, age group and gender, using 2 different templates.
+  <br><br>
+  <a href="SCY_v1.html">SCY v1</a>&nbsp;&nbsp;<a href="SCY_v1.pdf">(pdf)</a><br>
+  <a href="SCY_v2.html">SCY v2</a>&nbsp;&nbsp;<a href="SCY_v2.pdf">(pdf)</a><br>
+  All Short Course Yards (SCY) team records per event, age group and gender, using 2 different templates.
+<hr>
+
+<h3>Top Times Charts</h3>
+<a href="records_interactive_top25.html"> Top 25 Interactive </a><br>
+An interactive table of the top 25 swim times per event, age group and gender. The table supports search, filter and sort.
+<br><br>
+
+
+<a href="LCM_top25.html"> LCM Top 25 </a><br>
+All top 25 LCM swim times per event, age group and gender.<br><br>
+
+<a href="SCY_top25.html"> SCY Top 25 </a><br>
+All top 25 SCY swim times per event, age group and gender.<br>
+<hr>
+<h3>Disclaimer</h3>
+Team records and top times were last updated on 09-25-2024 using data from the USA Swimming SWIMS 3.0 database. <br>
+There may be data errors and omissions. Please report these to caq_records@gmail.com.
+<br>
 </html>
