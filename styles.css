@@ -101,11 +101,10 @@ body {
     background: #2D68C4;
     color: #fcd835;
     color: white;
-
-  /*  background: #fcd835;
-    color: #2D68C4; */
-
     font-family: Arial, sans-serif;
+    white-space: nowrap;
+    padding-left:5px;
+    padding-right:5px;
 }
 
 .th2_nm {
@@ -192,7 +191,31 @@ body {
     padding-bottom: 2px;
     font-family: Arial, sans-serif;
     white-space: nowrap;
-    min-width: 175px;
+    min-width: 170px;
+}
+
+.td2_age {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 30px;
+}
+
+.td2_team {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 80px;
 }
 
 .td2_name_date_time {
@@ -234,6 +257,18 @@ body {
     min-width: 75px;
 }
 
+.td2_date_no_day {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 65px;
+}
+
 .td2_date {
     text-align: center;
     font-size:14;
@@ -243,7 +278,43 @@ body {
     padding-bottom: 2px;
     font-family: Arial, sans-serif;
     white-space: nowrap;
-    min-width: 92px;
+    min-width: 70px;
+}
+
+.td2_date_year_only {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 60px;
+}
+
+.td2_imx_total {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 80px;
+}
+
+.td2_imx {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 50px;
 }
 
 .td2_time {
@@ -255,7 +326,43 @@ body {
     padding-bottom: 2px;
     font-family: Arial, sans-serif;
     white-space: nowrap;
-    min-width: 67px;
+    min-width: 62px;
+}
+
+.td2_relays_time {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 55px;
+}
+
+.td2_relays_date_no_day {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 55px;
+}
+
+.td2_relays_name {
+    text-align: center;
+    font-size:14;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    min-width: 160px;
 }
 
 
@@ -269,7 +376,7 @@ body {
     padding-bottom: 2px;
     font-family: Arial, sans-serif;
     white-space: nowrap;
-    min-width: 25px;
+    min-width: 19px;
     font-weight: bold;
 }
 
@@ -335,19 +442,19 @@ body {
 
 .grid-container-3-columns {
   display: grid;
-  padding: 10px;
-  grid-template-columns: auto auto minmax(0,1fr)
+  padding: 0px;
+  grid-template-columns: auto auto auto minmax(0,1fr)
 }
 
 .grid-container-2-columns {
   display: grid;
-  padding: 10px;
+  padding: 0px;
   grid-template-columns: auto auto minmax(0,1fr)
 }
 .grid-item {
   padding: 10px;
   text-align: center;
-  min-width: 400px;
+  min-width: 360px;
 }
 
 .box1 {
